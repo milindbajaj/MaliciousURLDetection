@@ -1,0 +1,82 @@
+html{
+	height: 100%;
+}
+body{
+    background: #DCEFFD;
+    background-image:img1.png;
+	background-size: cover;
+	background-position: center;
+	font-family: Inter;
+}
+.navbar-custom{
+	background-color: #DCEFFD;
+}
+.navbar-custom .navbar-brand{
+	color:#5A54F2;
+}
+.white-box {
+    background-color: white;
+    color: black;
+    margin-top: 40px;
+    height: 150px;
+    width: 661px;
+    left: 120px;
+    top: 556px;
+    border-radius: 8px;
+    flex: 1 1 200px;
+}
+#url{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 43px;
+    width: 401px;
+    left: 150px;
+    top: 659px;
+    border:1px solid #E3E3E3 ;
+    border-radius: 4px;
+    flex: 1 1 200px;
+}
+#text1{
+	margin-left: 20px;
+	padding-top: 15px;
+}
+.btn{
+	margin-bottom: 3px;
+	margin-left: 10px;
+	background: #5A54F2;
+    height: 44px;
+    width: 200px;
+    left: 564px;
+    top: 659px;
+    border-radius: 4px;
+    flex: 1 1 200px;
+
+}
+.content {
+	text-align: left;
+	padding-top: 21%;
+	color: black;
+	text-decoration-style: bold;
+	 flex-wrap: wrap;
+    /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);*/
+}
+.content1{
+	color: black;
+	text-decoration-style: bold;
+    /*text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);*/
+}
+h1	{
+	font-size: 5em;
+	font-weight: 700;
+}
+hr{
+	width: 300px;
+    margin: 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
