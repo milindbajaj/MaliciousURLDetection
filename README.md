@@ -1,10 +1,2 @@
-# MaliciousURLDetection
-
-Our project uses machine learning techniques to detect malicious URLs with the aim of providing a safe experience to the user.
-
-The method of detecting malicious URLs based on a set of markers or rules can quickly and accurately detect malicious URLs. 
-
-Machine learning algorithms are a part of the whole malicious URL detection system.
-There are three types of machine learning algorithms that can be applied on malicious URL detection methods, including supervised learning, unsupervised learning,
-and semi supervised learning. 
-And the detection methods are based on URL behaviors.
+# Malicious URL Detection using Machine Learning
+This repo provides a dataset with 388448 URLs labelled with 0 or 1, where 1 represents malicious URL. This work was done in early 2016. For demonstration purpose, I have trained a simple Logistic Regression model and have created a simple web app using Flask. Please note that this implementation is by no means the state-of-the-art, there are number of ways we can improve this model. First of all, you might get better result with deep neural networks (i.e Recurrent Neural Network). Secondly, directly using URL string as an input is not a good idea. We need to perform feature engineering and find better features(i.e using web page content or ip/host details). The data was collected from many sources, then it was merged and preprocessed. One of the sources is [this](https://github.com/faizann24/Using-machine-learning-to-detect-malicious-URLs).
