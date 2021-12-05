@@ -34,7 +34,7 @@ def getTokens(input):
 
 
 class LoginForm(Form):
-    url = StringField('Enter URL : ', validators=[InputRequired(), URL()])
+    url = StringField('<h3>Enter URL :</h3>', validators=[InputRequired(), URL()])
 
 
 @app.route('/', methods=['GET', 'POST'])
