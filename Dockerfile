@@ -1,14 +1,13 @@
-FROM alpine:latest
-
-RUN apk add --no-cache python
-RUN apk add py-pip
+FROM continuumio/anaconda3:4.4.0
 
 WORKDIR /app
+ADD . /app
 
-COPY . /app
+# Install dependencies
+RUN pip install -r requirements.txt
 
-RUN pip --no-cache-dir install -r requirements.txt
+# Expose port
+EXPOSE 5001
 
-ENTRYPOINT  ["python3"]
-
-CMD ["app.py"]
+# Run the application:
+CMD ["python", "app.py"]
